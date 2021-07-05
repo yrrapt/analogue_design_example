@@ -1,0 +1,4 @@
+**.subckt auto_dac_unit_cell_test
+**.ends
+** flattened .save nodes
+.end

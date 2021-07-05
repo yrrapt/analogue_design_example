@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# define the location of the project
+export PROJECT_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+# start the Python virtual environment
+source ~/.venvs/analogue_design_example/bin/activate
+
+# add the plotting paths
+export PATH=$PATH:$PROJECT_ROOT/env/yaaade/yaaade/plot

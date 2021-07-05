@@ -1,0 +1,31 @@
+
+Compatibility modes selected: hs a
+
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+
+Circuit: **.subckt test_opamp
+
+option SCALE: Scale set to 1e-06 for instance and model parameters
+ASCII raw file "rundir/spiceinterface_temp.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: include: has no value, DC 0 assumed
+No. of Data Columns : 39  
+
+No. of Data Rows : 101
+
+Total analysis time (seconds) = 0.006
+
+Total elapsed time (seconds) = 6.455 
+
+Total DRAM available = 7908.305 MB.
+DRAM currently available =  494.973 MB.
+Maximum ngspice program size =  128.617 MB.
+Current ngspice program size =   90.793 MB.
+
+Shared ngspice pages =   10.293 MB.
+Text (code) pages =    5.922 MB.
+Stack = 0 bytes.
+Library pages =   88.820 MB.
+

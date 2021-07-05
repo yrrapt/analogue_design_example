@@ -1,0 +1,17 @@
+cocotb
+cocotb-bus
+cocotb-coverage
+cocotb-test
+control
+h5py
+jupyter
+matplotlib
+numpy
+pylint
+PySpice
+pytest
+pytest-html
+PyYAML
+QtPy
+scipy
+spyci

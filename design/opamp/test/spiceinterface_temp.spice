@@ -1,0 +1,10 @@
+**.subckt test_opamp_op
+**.ends
+** flattened .save nodes
+
+.dc temp -40 125 55
+
+
+
+.save all 
+.end

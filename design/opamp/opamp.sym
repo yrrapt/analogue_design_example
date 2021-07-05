@@ -1,0 +1,32 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -100 20 -80 20 {}
+L 4 -100 -20 -80 -20 {}
+L 4 50 0 70 0 {}
+L 4 -30 -80 -30 -37 {}
+L 4 -80 -60 -80 60 {}
+L 4 -80 60 50 -0 {}
+L 4 -80 -60 50 -0 {}
+L 7 0 -80 0 -23 {}
+L 7 0 23 0 60 {}
+B 5 -2.5 -82.5 2.5 -77.5 {name=vdd dir=inout }
+B 5 -102.5 17.5 -97.5 22.5 {name=in_n dir=in }
+B 5 -102.5 -22.5 -97.5 -17.5 {name=in_p dir=in }
+B 5 67.5 -2.5 72.5 2.5 {name=out dir=out }
+B 5 -32.5 -82.5 -27.5 -77.5 {name=bias_10u dir=in }
+B 5 -2.5 57.5 2.5 62.5 {name=vss dir=inout }
+T {@symname} 29.5 34 0 0 0.3 0.3 {}
+T {@name} 35 18 0 0 0.2 0.2 {}
+T {vdd} 26 -75 0 1 0.2 0.2 {}
+T {in_n} -75 16 0 0 0.2 0.2 {}
+T {in_p} -75 -24 0 0 0.2 0.2 {}
+T {out} 34 -7 0 1 0.2 0.2 {}
+T {bias_10u} -36 -65 2 0 0.2 0.2 {}
+T {vss} 4 55 2 1 0.2 0.2 {}
